@@ -18,7 +18,7 @@ export default {
     link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
   },
   loading: { color: '#fff' },
-  css: [],
+  css: ['./src/assets/scss/global.scss'],
   plugins: [],
   buildModules: ['@nuxtjs/eslint-module', '@nuxtjs/stylelint-module'],
   modules: [],
